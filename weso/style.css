@@ -1,0 +1,58 @@
+body {
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(170, 193, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: auto;
+}
+    h1 {
+            font-family: 'Poppins', sans-serif;
+
+    }
+img {
+    position: absolute;
+    top: 190px;            
+    left: 50%;               
+    transform: translateX(-50%); 
+    width: 100px;   
+}
+
+form {
+    background-color: rgb(221, 236, 250);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(rgb(204, 201, 201), rgb(0, 108, 196), rgb(11, 69, 228));
+    width: 400px;
+
+
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0888f0;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: backroung-color 0.3s ease;
+
+}
+
+button:hover{
+    background-color: #1857df;
+}
